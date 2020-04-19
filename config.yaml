@@ -1,0 +1,11 @@
+options:
+  routines:
+    type: string
+    default: |
+      {
+        "uname": "uname -a"
+      }
+    description: |
+      dictionary of routines allowed to run
+
+

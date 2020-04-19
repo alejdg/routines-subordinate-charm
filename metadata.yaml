@@ -1,0 +1,13 @@
+name: routines
+summary: routines
+maintainers:
+    - Alexandre Gomes <alexandre.gomes@canonical.com>
+description: |
+  This subordinate charm provides an interface to create routines that can be ran as actions.
+series:
+  - bionic
+subordinate: True
+requires:
+  info:
+    interface: juju-info
+    scope: container
